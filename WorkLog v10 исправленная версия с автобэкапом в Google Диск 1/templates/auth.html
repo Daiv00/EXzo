@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#09090e"><title>WorkLog — вход</title><link rel="stylesheet" href="static/auth.css"></head>
+<body><div class="glow"></div><main class="auth">
+  <div class="logo"><span>W</span><div><b>WorkLog</b><small>учёт рабочих смен</small></div></div>
+  <section class="card">
+    <div class="tabs"><button class="tab active" data-mode="login">Войти</button><button class="tab" data-mode="register">Регистрация</button></div>
+    <div class="intro"><span>ЛИЧНЫЙ КАБИНЕТ</span><h1 id="title">С возвращением.</h1><p id="subtitle">Войди, чтобы продолжить учёт своих смен.</p></div>
+    <form id="authForm"><label>ЛОГИН<input id="username" autocomplete="username" required minlength="3" placeholder="например, alex"></label><label>ПАРОЛЬ<input id="password" type="password" autocomplete="current-password" required minlength="6" placeholder="минимум 6 символов"></label><button class="primary" id="submit">Войти →</button></form>
+    <div id="error" class="error"></div>
+  </section><p class="foot">У каждого пользователя свои смены и свои данные.</p>
+</main><script src="static/auth.js"></script></body></html>
